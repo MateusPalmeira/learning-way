@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tenho que relembrar, mané</title>
+    <style>
+        body {
+            background-color: rgb(121, 121, 246);
+            color: rgb(209, 208, 208);
+            font: normal 20pt Comic;
+        }
+
+        h1 {
+            color: rgb(173, 95, 95);
+        }
+        p {
+            color:rgb(48, 6, 236);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Olá de novo, Mundo!</h1>
+    <p>Barone</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um numero par:'))
+        while (n1 !=0 && n1 % 2){
+            window.alert("Este numero não é Par!")
+            var n1 = Number(window.prompt('Digite um numero par:'))
+        }
+        var n2 = Number(window.prompt('Digita um numero impar:'))
+        while (n2 != 0 && (n2/2) == 1){
+            window.alert('Este numero não é Impar!')
+            var n2 = Number(window.prompt('Digita um numero impar:'))
+        }
+        var n = n1 + n2
+        window.alert(`A Soma entre ${n1} e ${n2} é igual a ${n}`)
+        window.alert('HÁ')
+
+    
+    </script>
+</body>
+</html>
